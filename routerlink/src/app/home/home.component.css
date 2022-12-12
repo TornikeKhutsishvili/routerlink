@@ -1,0 +1,10 @@
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: calc(100vh - 50px);
+}
+.main2{
+  width: 100%;
+}

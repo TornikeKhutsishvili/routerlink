@@ -1,0 +1,16 @@
+<h2 [hidden]="error">Error 404</h2>
+
+<table>
+  <tr>
+    <th>Firsname</th>
+    <th>Lastname</th>
+    <th>Email</th>
+    <th>password</th>
+  </tr>
+  <tr *ngFor="let i of arr">
+    <td>{{i.fname}}</td>
+    <td>{{i.lname}}</td>
+    <td>{{i.email}}</td>
+    <td>{{i.pass}}</td>
+  </tr>
+</table>

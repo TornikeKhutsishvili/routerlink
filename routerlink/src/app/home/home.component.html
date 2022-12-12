@@ -1,0 +1,19 @@
+<div class="main">
+  <div class="main2">
+    <div class="form-group col-md-9 m-auto mt-10">
+      <input
+      [(ngModel)]="human.fname"
+      type="text" class="form-control m-auto mt-5" placeholder="Enter firstname">
+      <input
+      [(ngModel)]="human.lname"
+      type="text" class="form-control m-auto mt-2" placeholder="Enter lastname">
+      <input
+      [(ngModel)]="human.email"
+      type="text" class="form-control m-auto mt-2" placeholder="Enter email">
+      <input
+      [(ngModel)]="human.pass"
+      type="text" class="form-control m-auto mt-2" placeholder="Enter password">
+      <button class="btn btn-primary col-md-6 d-block mt-2 m-auto" (click)="save()">Save</button>
+    </div>
+  </div>
+</div>
